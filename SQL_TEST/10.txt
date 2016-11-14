@@ -1,0 +1,4 @@
+SELECT bookname,author
+FROM allbooks,category
+WHERE catename = '¤å¾Ç'
+AND cid = cate;

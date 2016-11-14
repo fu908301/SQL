@@ -1,0 +1,4 @@
+SELECT catename,AVG(price)
+FROM category,allbooks
+WHERE cate = cid
+GROUP BY catename;

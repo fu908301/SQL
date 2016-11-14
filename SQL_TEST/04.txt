@@ -1,0 +1,3 @@
+SELECT bookname
+FROM allbooks
+WHERE price > 500;

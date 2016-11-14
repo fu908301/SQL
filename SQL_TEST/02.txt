@@ -1,0 +1,5 @@
+SELECT bookname
+FROM category,allbooks
+WHERE catename = "¹q¸£"
+AND 
+cid = cate;
