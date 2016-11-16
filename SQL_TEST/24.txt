@@ -1,0 +1,6 @@
+SELECT member.gid,name
+FROM member,bw
+WHERE member.gid = bw.gid
+AND reback is not null
+GROUP BY member.gid,name;
+(此題後半部不會弄)

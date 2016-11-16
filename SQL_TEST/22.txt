@@ -1,0 +1,4 @@
+SELECT SUM(quan) (這邊不確定老師要的是SUM(quan)還是COUNT(*))
+FROM bwdetail,allbooks
+WHERE bookname = '山居筆記'
+AND bookid = bid;

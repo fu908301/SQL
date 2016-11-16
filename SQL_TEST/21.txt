@@ -1,0 +1,7 @@
+SELECT name,SUM(quan)
+FROM allbooks,bw,bwdetail,member 
+WHERE member.gid = bw.gid
+AND bw.getid = bwdetail.getid
+AND bid = bookid
+GROUP BY name
+ORDER BY SUM(quan) DESC;

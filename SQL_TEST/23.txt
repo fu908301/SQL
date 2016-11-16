@@ -1,0 +1,6 @@
+SELECT bookname,author,catename,SUM(quan)
+FROM bwdetail,allbooks,category
+WHERE bookid = bid
+AND cid = cate
+GROUP BY bookname,author,catename
+ORDER BY SUM(quan) DESC;

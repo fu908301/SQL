@@ -1,0 +1,4 @@
+SELECT author
+FROM allbooks
+GROUP BY author
+HAVING COUNT(*) > 2;

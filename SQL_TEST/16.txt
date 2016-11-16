@@ -1,0 +1,3 @@
+SELECT *
+FROM member
+WHERE city = 'еxе_ел';

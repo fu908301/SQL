@@ -1,0 +1,4 @@
+SELECT name,COUNT(bw.gid)
+FROM member,bw
+WHERE bw.gid = member.gid
+GROUP BY name;

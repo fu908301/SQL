@@ -1,0 +1,4 @@
+SELECT catename,COUNT(cate)
+FROM allbooks,category
+WHERE cate = cid 
+GROUP BY catename;

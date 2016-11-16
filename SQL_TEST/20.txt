@@ -1,0 +1,5 @@
+SELECT name,COUNT(bw.gid)
+FROM bw,member 
+WHERE bw.gid = member.gid
+GROUP BY name
+ORDER BY COUNT(bw.gid) DESC;

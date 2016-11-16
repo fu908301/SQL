@@ -1,0 +1,4 @@
+SELECT author,COUNT(bookid)
+FROM allbooks
+GROUP BY author
+ORDER BY COUNT(bookid) DESC;

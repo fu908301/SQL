@@ -1,0 +1,7 @@
+SELECT bookname
+FROM allbooks,bw,bwdetail,member
+WHERE name = '黃偉立'
+AND member.gid = bw.gid
+AND bw.getid = bwdetail.getid
+AND bid = bookid
+GROUP BY bookname;(這行不確定要不要加)
