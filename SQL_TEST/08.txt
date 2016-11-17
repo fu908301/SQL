@@ -2,4 +2,3 @@ SELECT bookname,catename,bookid
 FROM allbooks,category
 WHERE cid = cate
 AND bookname = '¤«µM¦³§Ç';
-()
