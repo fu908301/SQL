@@ -1,4 +1,0 @@
-SELECT * 
-FROM allbooks
-WHERE bookname = '¤s©~µ§°O';
-
