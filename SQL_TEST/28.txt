@@ -1,0 +1,7 @@
+SELECT bookname,bookid,qty - quan
+FROM allbooks,bw,bwdetail
+WHERE reback is null
+AND bw.getid = bwdetail.getid
+AND bid = bookid
+GROUP BY bookname,bookid,qty - quan;
+(這邊其實有錯，重點在於不知道如何累減)

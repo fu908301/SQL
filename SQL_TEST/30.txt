@@ -1,0 +1,6 @@
+SELECT author,SUM(quan)
+FROM category,bwdetail,allbooks
+WHERE bid = bookid
+AND cate = cid
+GROUP BY author;
+(這樣可列出每個作者被借閱的次數)

@@ -1,0 +1,14 @@
+SELECT bookname,bookid,qty
+FROM allbooks,bw,bwdetail
+WHERE bookname not in 
+(
+SELECT bookname
+FROM allbooks,bw,bwdetail
+WHERE reback is null
+AND bw.getid = bwdetail.getid
+AND bid = bookid
+GROUP BY bookname,bookid
+)
+AND bw.getid = bwdetail.getid
+AND bid = bookid
+GROUP BY bookname,bookid,qty;

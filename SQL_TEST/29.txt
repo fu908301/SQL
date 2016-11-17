@@ -1,0 +1,6 @@
+SELECT catename,SUM(quan)
+FROM category,bwdetail,allbooks
+WHERE bid = bookid
+AND cate = cid
+GROUP BY catename;
+(這樣可列出每個分類被借閱的次數)

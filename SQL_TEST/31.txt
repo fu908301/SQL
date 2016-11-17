@@ -1,0 +1,4 @@
+UPDATE allbooks
+SET qty = qty +1
+WHERE bookid LIKE 'H*';
+(一般情況要用H% 但是在access裡面要用H*)

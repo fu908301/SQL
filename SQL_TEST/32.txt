@@ -1,0 +1,1 @@
+INSERT INTO category VALUES('4','¬ì¾Ç')

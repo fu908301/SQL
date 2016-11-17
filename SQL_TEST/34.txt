@@ -1,0 +1,1 @@
+INSERT INTO member VALUES('B00007','陳小零','D212345670','台南市中正二路53號');

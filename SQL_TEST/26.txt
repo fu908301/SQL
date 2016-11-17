@@ -1,0 +1,6 @@
+SELECT bookname,bookid,SUM(quan)
+FROM allbooks,bw,bwdetail
+WHERE reback is null
+AND bw.getid = bwdetail.getid
+AND bid = bookid
+GROUP BY bookname,bookid;

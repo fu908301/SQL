@@ -1,0 +1,2 @@
+INSERT INTO allbooks VALUES('R00005','資料庫系統','張玉盈','550','2','','1');
+(沒有INDATE就暫時先空著)
