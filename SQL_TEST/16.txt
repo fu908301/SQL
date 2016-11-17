@@ -1,3 +1,4 @@
 SELECT *
 FROM member
-WHERE city = '台北市';
+WHERE city LIKE '台北*';
+(一般情況用萬用字元%，access裡面用*)

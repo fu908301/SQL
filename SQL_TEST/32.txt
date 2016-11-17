@@ -1,1 +1,1 @@
-INSERT INTO category VALUES('4','科學')
+INSERT INTO category VALUES('4','科學');
